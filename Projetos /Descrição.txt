@@ -1,0 +1,16 @@
+Sistema gerenciador de salões de beleza.
+Com enfase no relacionamento com o cliente
+•	Gerenciamento:
+o	Serviços (cabelereira, manicure, podólogo).
+o	Venda de produtos.
+o	Controle de estoque.
+o	Cadastro de Clientes.
+o	Atendimentos.
+o	Cadastro de profissionais.
+o	Contas a Pagar e a Receber.
+
+Levanta de requisitos:
+Método:
+•	Entrevista com clientes potenciais.
+•	Formulários (Google Forms).
+
