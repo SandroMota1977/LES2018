@@ -1,0 +1,5 @@
+AGENDAMENTO
+O cliente agenda um atendimento indicando horario, data e profissional desejada.
+	O cliente também pode não escolher um profissional, sendo atendido pelo profissional disponível no dia agendado.
+O salão informa a profissional que ela tem atendimento agendado.
+O profissional pode recusar o atendimento, informando o motivo (dia de folga, saúde, compromisso pessoal..) e é proposto para o cliente alterar data, horário, profissional para atendê-lo ou cancelar o agendamento ou o profissional confirma o agendamento e o cliente recebe a confirmação (por mensagem ou no status do seu agendamento)
