@@ -1,0 +1,33 @@
+##Atendimento (Classe)
+O atendimento tem três fazes:
+	**Agendamento, que é a criação do registro do atendimento.
+	**Atendimento, é a realização da atividade principal
+	**Conclusão, é quando são geradas contas a pagar, calculos de serviços, produtos utilizados, possíveis descontos, etc...
+	
+#agendar (Método)
+	**A cliente acessa o sistema e tenta o encaixe (método seguinte) para um atendimento.
+	**O salão informa a profissional que ela tem atendimento agendado.
+	**O profissional pode recusar o atendimento, informando o motivo (dia de folga, saúde, compromisso pessoal..) e é proposto para o
+	cliente alterar data, horário, profissional para atendê-lo ou cancelar o agendamento ou o profissional confirma o agendamento e o
+	cliente recebe a confirmação (por mensagem ou no status do seu agendamento). (status AGENDADO)
+
+	(Regra de negócio) caso o cliente não chegue para o atendimento até um período de tempo estabelecido pelo salão o atendimento é 
+	(status) CANCELADO
+	**O cliente pode adiar um atendimento para uma nova data ou horário desde que seja possível encaixá-la (método) em algum horário.
+
+#encaixar (Método)
+	**O cliente agenda um atendimento indicando horario, data e profissional desejada.
+	**O cliente também pode não escolher um profissional, sendo atendido pelo profissional disponível no dia agendado.
+	
+#atender (Método)
+	**O cliente, chegando dentro do prazo previsto, indica no sistema o início do atendimento. Caso o cliente chegue antes o sistema
+	permite o adiantamento do atendimento caso o profissional esteja com status DISPONÍVEL.
+	**O sistema detecta o horário de início do atendimento e calcula a estimativa de término do atendimento, também atualiza o status
+	do profissional no sistema como OCUPADO ou EM ATENDIMENTO.
+	**Quando um atendimento é iniciado, nem o cliente nem o profissional podem cancelá-lo, somente o lider do salão ou dono.
+	
+#concluir (Método)
+	**O profissinal indica o término do atendimento, caso tenha utilizado algum produto a mais que o estipulado nos atendimentos
+	comuns o profissional indica este(s) produto(s) que serão somados ao valor total do atendimento.
+	
+
