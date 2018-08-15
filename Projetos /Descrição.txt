@@ -9,7 +9,9 @@ o	Atendimentos.
 o	Cadastro de profissionais.
 o	Contas a Pagar e a Receber.
 
-Levanta de requisitos:
+Visto as áreas de abrangências propostas, o sistema trará benefícios tanto para o dono do salão quanto o cliente, tornando a relação entre estes muito mais agradável e com muito mais confiança.
+
+Levantamento de requisitos:
 Método:
 •	Entrevista com clientes potenciais.
 •	Formulários (Google Forms).
